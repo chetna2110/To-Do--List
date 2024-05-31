@@ -1,0 +1,129 @@
+/* src/components/TodoApp.css */
+.todo-app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-list li.completed span {
+    text-decoration: line-through;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+body{
+    background: linear-gradient(to right, rgb(89, 160, 184),lightblue,plum);    
+}
+.todo-app
+{
+    background: linear-gradient(to left, rgb(132, 188, 210), rgb(89, 160, 184),plum);
+    font-family:cursive;
+    
+}
+#name
+{
+    border-radius: 4px;
+        margin: 3px;
+        background-color:lavender;
+        font-family: cursive;
+}
+#name:hover{
+ background-color: rgb(58, 154, 186);
+border:2px,rgb(58, 154, 186) ,solid; 
+color:whitesmoke;
+justify-content:space-between;
+font-family: cursive;
+border-radius:4px;
+margin:3px;
+transform:matrix3d(3);
+
+}
+#add{
+    background-color: rgb(194, 194, 236);
+    font-family: cursive;
+    border-radius: 30px;
+    width: 40px;
+    font-family: cursive;
+    font-size: 25px;
+     padding-bottom: 7px;
+    border:3px black solid;
+}
+#add:hover
+{
+    background-color: plum;
+justify-content: space-between;
+    font-family: cursive;
+    color:black;
+    border:none; 
+    transform:matrix3d(3)  
+    
+}
+#sub
+{
+    background-color: rgb(194, 194, 236);
+        font-family: cursive;
+        border-radius: 30px;
+        width: 40px;
+        font-family: cursive;
+        font-size: 25px;
+        padding-bottom: 7px;
+        border:3px black solid;;
+}
+#sub:hover
+{
+    background-color: plum;
+        
+        border:none;
+        
+    justify-content: space-between;
+        font-family: cursive;
+        color: black;
+         transform: matrix3d(3)
+}
+input{
+    font-family:cursive;
+    border-radius:20px;
+    border:none;
+}
+.overflow
+{
+    height:150px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
